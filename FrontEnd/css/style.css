@@ -1,0 +1,129 @@
+/* General Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f2f5;
+  color: #333;
+}
+
+h1, h2 {
+  color: #444;
+  text-align: center;
+}
+
+/* Header Styles */
+.header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+  margin: 0;
+}
+
+/* Main Styles */
+.main {
+  max-width: 800px;
+  margin: 30px auto;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+#turnos-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+#turnos-list li {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin: 5px 0;
+  background-color: #f9f9f9;
+}
+
+#turnos-list li.reservado {
+  color: #fff;
+  background-color: #dc3545;
+}
+
+#turnos-list li.disponible {
+  color: #fff;
+  background-color: #28a745;
+}
+
+/* Action Styles */
+#acciones {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-text {
+  padding: 8px 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  width: 80%;
+  max-width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btn {
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+/* Estilo para el botón de reinicio */
+.btn-reset {
+  background-color: #dc3545;
+}
+
+.btn-reset:hover {
+  background-color: #c82333;
+}
+
+/* Estadísticas Styles */
+#estadisticas-output {
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+}
+
+.footer p {
+  margin: 0;
+}
+
+  

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulador de Turnos del Cine</title>
+  <link rel="stylesheet" href="./FrontEnd/css/style.css">
+</head>
+<body>
+  <header class="header">
+    <h1>Simulador de Turnos del Cine</h1>
+  </header>
+  <main class="main">
+    <section id="turnos-container">
+      <h2>Turnos Disponibles</h2>
+      <ul id="turnos-list"></ul>
+    </section>
+    <section id="acciones">
+      <h2>Acciones</h2>
+      <input type="text" id="input-hora" placeholder="Ej: 16:00" class="input-text">
+      <button id="btn-reservar" class="btn">Reservar Turno</button>
+      <button id="btn-estadisticas" class="btn">Ver Estadísticas</button>
+      <button id="btn-reiniciar" class="btn btn-reset">Reiniciar Simulador</button>
+    </section>
+    <section id="estadisticas">
+      <h2>Estadísticas</h2>
+      <div id="estadisticas-output"></div>
+    </section>
+  </main>
+  <footer class="footer">
+    <p>&copy; 2024 Simulador de Turnos del Cine. Todos los derechos reservados.</p>
+  </footer>
+  <script src="./FrontEnd/js/app.js"></script>
+</body>
+</html>
