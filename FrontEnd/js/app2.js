@@ -1,4 +1,4 @@
-import { obtenerDoctores } from './app1.js';
+import { obtenerDoctores } from '../js/app1.js';
 
 const especialidadSelect = document.getElementById('especialidad-select');
 const doctorSelect = document.getElementById('doctor-select');
