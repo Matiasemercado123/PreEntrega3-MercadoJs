@@ -7,7 +7,7 @@ export const obtenerDoctores = async () => {
     }
 
     // Si no hay datos en localStorage, obtenerlos del archivo JSON
-    const respuesta = await fetch('./FrontEnd/productos.json');
+    const respuesta = await fetch('http://127.0.0.1:5500/index.html');
     if (!respuesta.ok) throw new Error('Error al cargar el archivo JSON');
     const data = await respuesta.json();
 
